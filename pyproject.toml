@@ -1,0 +1,13 @@
+[project]
+name = "handybox"
+version = "0.1.0"
+description = "A lightweight toolbox of handy Python helper functions"
+authors = [{ name = "Gabriel Valentoni Guelfi", email = "gabriel.valguelfi@gmail.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["utilities", "helpers", "toolkit", "python"]
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
