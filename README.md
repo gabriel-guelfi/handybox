@@ -19,12 +19,14 @@ pip install handybox
 ### 🔤 String Utilities
 - `camelToSnake(str)` — Converts CamelCase strings to snake_case.
 - `slugify(str)` — Converts a string into a URL-friendly slug.
+- `removeAccents(str)` —  Removes accents from characters in a string.
 
 ```python
 from handybox import camelToSnake, slugify
 
 camelToSnake("MyVariableName")   # "my_variable_name"
 slugify("Hello, World!")           # "hello-world"
+removeAccents("Café")              # "Cafe"
 ```
 
 ### 📅 Date Utilities

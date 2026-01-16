@@ -1,6 +1,6 @@
 [project]
 name = "handybox"
-version = "0.3.1"
+version = "0.4.0"
 description = "A lightweight toolbox of handy Python helper functions"
 authors = [{ name = "Gabriel Valentoni Guelfi", email = "gabriel.valguelfi@gmail.com" }]
 readme = "README.md"
