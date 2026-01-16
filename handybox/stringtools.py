@@ -12,7 +12,7 @@ def toSnake(text):
     import re
     return re.sub(r'\W+', '_', text).strip('_').lower()
 
-def remove_accents(text):
+def removeAccents(text):
         return ''.join(
             c for c in unicodedata.normalize('NFD', text)
             if unicodedata.category(c) != 'Mn'
